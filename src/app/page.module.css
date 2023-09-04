@@ -1,0 +1,115 @@
+.mainDiv {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid black;
+}
+
+.listContainer {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+.header {
+  height: 170px;
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid black;
+}
+
+.ptext {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.addButton {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.modalDiv {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 0.5fr;
+}
+
+.inputDiv {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  border: solid 0.5px grey;
+}
+
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crossButton {
+  background: none;
+  size: 60px;
+  border: none;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancelButton {
+  background: none;
+  margin-right: 20px;
+  color: black;
+  border: solid 0.5px grey;
+  padding: 10px 20px;
+}
+
+.mainData {
+  background-color: rgb(241, 241, 241);
+  justify-content: center;
+}
+
+.dataHeading {
+  padding: 45px 45px 10px 45px;
+  display: grid;
+  grid-template-columns: 6fr 4fr 5fr 5fr;
+}
+
+.dataDiv {
+  background-color: white;
+  padding: 10px 45px;
+  display: grid;
+  grid-template-columns: 6fr 4fr 5fr 5fr;
+}
+
+.checkinText {
+  width: fit-content;
+  background-color: aqua;
+}
+
+.drawerNav {
+  height: 30px;
+  display: flex;
+  border-bottom: 0.5px solid black;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.drawerImage {
+  border-radius: 20px;
+}
